@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Node + Express on Elastic Beanstalk!" });
+  res.json({ message: "Hello from Node Express on Elastic Beanstalk!" });
 });
 
 app.listen(PORT, () => {
